@@ -31,7 +31,7 @@ const Quote = () => {
         <div>
             <div className="bg-[#C4DAD2] mt-10 mx-auto rounded-lg shadow-[#84ab9c] shadow-lg p-6 w-2/3 md:w-1/2 lg:w-1/3 mb-6">
                 <p className="text-xl text-gray-700 text-center font-semibold mb-4">"{quote}"</p>
-                <div className="flex justify-between">
+                <div className="flex gap-2 flex-col items-center xs:flex-row justify-between">
                     <button
                         className="bg-[#295F98] text-white px-4 py-2 rounded hover:bg-[#1a436f] transition"
                         onClick={fetchQuote}

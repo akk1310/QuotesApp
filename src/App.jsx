@@ -11,12 +11,13 @@ function App() {
 
   return (
     <div className='px-8'>
-    <div className='flex justify-between  items-center gap-5'>
-      <img className='w-40 border border-black/50 p-4 rounded-md' src="/l4.png" alt="logo" />
-      <div className='text-4xl mr-28 font-semibold text-[#16423C] '>DailyQuote!</div>
+      <img className='w-40 mx-auto sm:m-1 border border-black/50 p-4 rounded-md' src="/l4.png" alt="logo" />
+      <div className=' text-center text-4xl font-semibold text-[#16423C] '>DailyQuote!</div>
+    {/* <div className='flex flex-col xs:flex-row justify-between  items-center gap-5'>
+
       <div></div>
 
-    </div> 
+    </div>  */}
 
 
      

@@ -13,7 +13,7 @@ const QuoteList = () => {
       <div className='text-center text-2xl font-semibold'>Saved Quotes.</div>
       {quotes.map((quote) => (
         <div
-          className="bg-[#C4DAD2]  p-4 my-2 rounded-lg shadow-md text-left text-gray-800 flex justify-between items-center"
+          className="bg-[#C4DAD2] flex-col gap-2 xs:flex-row  p-4 my-2 rounded-lg shadow-md text-left text-gray-800 flex justify-between items-center"
           key={quote.id}
         >
 
